@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script defer src="js/main.js"></script>
     <title>ООО «РД»</title>
 </head>
 <body> 
     <!-- Шапка сайта -->
     <header class="header">
-        <h5><a class="logo" href="#">ООО «Реестр Дома»</a></h5>
+        <!-- <img class="logo-img" src="img/Untitled_logo_1_free-file.jpg" alt=""> -->
+        <h5><a class="logo" href="index.html">RD</a></h5>
         <nav class="navbar">
             <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">О нас</a></li>
+                <li class="menu__link"><a href="index.html">Главная</a></li>
+                <li class="menu__link"><a href="#">Услуги</a></li>
+                <li class="menu__link"><a href="#">О нас</a></li>
+                <button class="header_btn">Контакты</button>
             </ul>
-            <button class="header_btn">Контакты</button>
+            
         </nav>
+        <button class="header__burger-btn" id="burger">
+            <span></span><span></span><span></span>
+        </button>
     </header>
     <section class="bgheader">
         <div class="background">
@@ -34,7 +42,7 @@
             <div class="aboutUs__flex">
                 <h2>О нас</h2>
                 <div class="contant">
-                    <h3>ООО «Реестр Дома»</h3>
+                    <h3>ООО «РД»</h3>
                     <p class="contant-p">
                         ООО «РД» - юридическая фирма, специализирующаяся на предоставлении юридических услуг частным лицам и предприятиям. Наша команда опытных юристов увлечена защитой прав потребителей и представляет интересы наших клиентов. Мы специализируемся на строительных спорах и исках о возмещении имущественного ущерба. Свяжитесь с нами сегодня, чтобы узнать больше о том, как мы можем помочь вам достичь ваших юридических целей.</p>
                 </div>
@@ -50,23 +58,22 @@
                 <div class="services__card">
                     <img class="service-img" src="img/services1.png" alt="image">
                     <div class="services__contant1">
-                        <h3>Защита прав потребителей</h3>
-                        <p>Мы предоставляем юридическое представительство и консультации потребителям относительно их прав и обязанностей в соответствии с законом.</p>
+                        <h3>Претензии по поводу ущерба, причиненного водой</h3>
+                        <p>Иски о возмещении ущерба от воды Мы помогаем владельцам недвижимости возместить ущерб, причиненный утечками воды и наводнениями. Наша команда неустанно работает над тем, чтобы наши клиенты получали компенсацию, которой они заслуживают.</p>
                     </div>
                 </div>
                 <div class="services__card">
                     <img class="service-img" src="img/services3.png" alt="image">
                     <div class="services__contant2">
-                        <h3>Претензии по строительным дефектам</h3>
-                        <p>Мы представляем интересы домовладельцев и предприятий в спорах с подрядчиками и строителями по поводу строительных дефектов и других вопросов.</p>
+                        <h3>Защита прав потребителей</h3>
+                        <p>Мы предоставляем юридическое представительство и консультации потребителям относительно их прав и обязанностей в соответствии с законом.</p>
                     </div>
                 </div>
                 <div class="services__card">
                     <img class="service-img" src="img/services2.png" alt="image">
                     <div class="services__contant3">
-                        <h3>Претензии по поводу ущерба, причиненного водой</h3>
-                        <p>
-                            Иски о возмещении ущерба от воды Мы помогаем владельцам недвижимости возместить ущерб, причиненный утечками воды и наводнениями. Наша команда неустанно работает над тем, чтобы наши клиенты получали компенсацию, которой они заслуживают.</p>
+                        <h3>Претензии по строительным дефектам</h3>
+                        <p> Мы представляем интересы домовладельцев и предприятий в спорах с подрядчиками и строителями по поводу строительных дефектов и других вопросов.</p>
                     </div>
                 </div>
             </div>
@@ -80,7 +87,7 @@
                     <p>ООО «РД» - юридическая фирма, специализирующаяся на защите прав потребителей, исках о строительных дефектах и возмещении ущерба от воды. Наши опытные юристы предоставляют специализированные юридические услуги физическим и юридическим лицам. Мы стремимся к достижению наилучшего результата для наших клиентов.</p>
                 </div>
                 <div class="footer__link">  
-                    <li><a class="footer-link" href="#">Главная</a></li>
+                    <li><a class="footer-link" href="index.html">Главная</a></li>
                     <li><a class="footer-link" href="#">Услуги</a></li>
                     <li><a class="footer-link" href="#">О нас</a></li>
                     <li><a class="footer-link" href="#">Контакты</a></li>
@@ -89,19 +96,19 @@
                     <div class="connect">
                         <p>
                         Адрес: 394068, Воронежская обл.,<br>г.Воронеж, ул.Беговая, д.10,<br>корп.2, кв.64<br>
-                        Электронная почта: info@rd36.ru<br>
+                        Электронная почта: <a href="mailto:info@rd36.ru">info@rd36.ru</a><br>
                         Телефон: 8-996-450-00-36
                         </p>
                     </div>
-                    <!-- <div class="links">
-                        <a href="">Phone</a>
-                        <a href="">Mail</a>
-                        <a href="">WhatsUp</a>
-                    </div> -->
-
+                    <div class="links">
+                        <a target="_blank" href="https://wa.me/79515403929"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                        <a href="tel:79515403929"><i class="fa fa-phone-square" aria-hidden="true"></i></a>
+                        <a href="mailto:info@rd36.ru"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </footer>
 </body>
 </html>
+

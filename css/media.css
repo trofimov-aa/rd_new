@@ -1,0 +1,232 @@
+@media screen and (max-width: 1400px) {
+    h1 {
+        padding-top: 80px;
+        margin-left: 100px;
+        font-size: 70px;
+    }
+    .aboutUs h2 {
+        padding-top: 50px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h2:after {
+        width: 110px;
+      }
+    h3 {
+        font-size: 26px;
+    }
+    .aboutUs {
+        padding: 50px 0;
+    }
+    .aboutUs-img {
+        max-width: 300px;
+        max-width: 300px;
+    }
+    .services {
+        padding: 40px 0;
+    }
+    .service-img {
+        max-width: 350px;
+        max-height: 350px; 
+    }
+    .services__contant2 {
+        order: -1;
+        padding: 90px 10px;
+        text-align: center; 
+    }
+    .services__card {
+        
+        justify-content: center;
+    }
+    .footer__info p {
+        text-align: justify;
+        max-width: 500px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    h1 {
+        padding-top: 40px;
+        margin-left: 30px;
+        font-size: 55px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 16px;
+    }
+    .services__flex {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+    }
+    .service-img {
+        max-width: 300px;
+        max-height: 300px; 
+    }
+    .services__contant1 {
+        margin-top: 10px;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .services__contant2 {
+        margin-top: 10px;
+        order: -1;
+        padding: 0px 10px;
+        text-align: center; 
+    }
+    .services__contant3 {
+        margin-top: 10px;
+        padding: 0 10px;
+        text-align: center;
+    }
+    .services__card h3,p {
+        max-width: 280px;
+        margin-bottom: 10px;
+    }
+    .header_btn {
+        
+        margin-left: 30px; 
+    }
+}
+@media screen and (max-width: 1024px) {
+    h1 {
+        padding-top: 20px;
+        margin-left: 15px;
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    h2:after {
+        width: 90px;
+      }
+    .aboutUs__flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .aboutUs-img {
+        max-width: 300px;
+        max-width: 300px;
+    }
+    .contant-p {
+        max-width: 400px;
+        text-align: justify;  
+    }
+    .aboutUs h2 {
+        padding-top: 80px;
+    }
+    .footer__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__info {
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+    .connect p {
+        text-align: center;
+    }
+    .footer__link {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .footer__contact {
+        margin: 0 auto;
+    }
+    .fa {
+        
+        font-size: 40px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .footer__link li {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h1:after {
+        width: 180px;
+      }
+    .aboutUs__flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .background {
+        height: 35vh;
+    }
+    .aboutUs__flex h2 {
+        padding-top: 0px;
+        margin: 0 auto;
+    }
+    .aboutUs__flex .contant {
+        
+        margin: 30px auto;
+    }
+    .aboutUs__flex img {
+        margin: 0 auto;
+    }
+    .aboutUs {
+        padding: 40px 0;
+    }
+    .navbar {
+        position: absolute;
+        left: -300px;
+        top: 0;
+        background-color: #ffffff;
+        padding: 50px 20px 20px 20px;
+        width: 300px;
+        transition: transform .5s;
+    }
+    .navbar ul, button {
+        display: block;
+    }
+    .header_btn {
+        margin-left: 0px; 
+    }
+    .menu__link {
+        padding: 20px 0;
+        display: block;
+    }
+    .header.open .navbar {
+        transform: translateX(100%);
+    }
+    .services__contant2 {
+        order: 0;
+    }
+    .header__burger-btn {
+        display: block;
+    }
+}
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h2:after {
+        width: 70px;
+      }
+    p {
+        font-size: 14px;
+    }
+    .aboutUs-img {
+        max-width: 250px;
+        max-width: 250px;
+    }
+    .service-img {
+        max-width: 250px;
+        max-height: 250px; 
+    }
+}
