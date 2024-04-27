@@ -313,20 +313,16 @@
     }
     .contact__form {
         display: block;
-        margin: 0 auto;
+        width: 100%;
     }
     .name__form {
         width: 100%;
-        
     }
     .email__form {
         width: 100%;
-       
     }
-     
     .message__form {
-        width: 100%;
-        
+        width: 100%; 
     }
     .message-btn {
         width: 100%;
