@@ -136,6 +136,9 @@
     .aboutUs h2 {
         padding-top: 80px;
     }
+    .footer {
+        padding: 20px 0;
+    }
     .footer__flex {
         display: flex;
         flex-direction: column;
@@ -179,6 +182,36 @@
     .services__content img {
         margin-top: 0px;
     }
+    .aboutUs__flex-img {
+        width: 100%;
+        margin-right: 0px;
+        display: block;
+        margin: 0 auto;
+    }
+    .aboutUs__flex-content p {
+        max-width: 100%;
+    }
+    .choose__flex-content-card .fa {
+        margin-right: 40px;
+    }
+    .aboutUs__flex-content h3 {
+        font-size: 40px;
+    }
+    .choose__flex-content-card h4 {
+        font-size: 20px;
+    }
+    .choose__flex-content {
+        padding: 20px 10px;
+    }
+    .aboutUs__flex-content {
+        padding: 40px 15px;
+    }
+    .contact-icon i {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+    
+    
 }
 @media screen and (max-width: 768px) {
     h1 {
@@ -215,7 +248,7 @@
         position: absolute;
         left: -300px;
         top: 0;
-        background-color: #ffffff;
+        background-color: #F4F8FD;
         padding: 50px 20px 20px 20px;
         width: 300px;
         transition: transform .5s;
@@ -239,6 +272,70 @@
     .header__burger-btn {
         display: block;
     }
+    .choose {
+        background-size: cover;
+        padding: 30px 0;
+    }
+    .choose__flex-content-card {
+        flex-wrap: wrap;
+    }
+    .choose__flex {
+        flex-wrap: wrap;
+    }
+    .choose__flex h3 {
+       text-align: center;
+       display: block;
+       margin: 0 auto;
+       margin-bottom: 30px;
+    }
+    .choose__flex h3::after {
+        margin: 0 auto;
+    }
+    .choose__flex-content-card {
+        max-width: 100%;
+        
+    }
+    .choose__flex-content-card h4 {
+        text-align: center;
+    }
+    .choose__flex-content-card p {
+        text-align: center;
+    }
+    .choose__flex-content-card .fa {
+        transform: translateY(0) rotate(90deg);
+        margin: 0 auto;
+    }
+    .aboutUs__flex-content h3 {
+        font-size: 30px;
+    }
+    .choose__flex h3 {
+        font-size: 28px;
+    }
+    .contact__form {
+        display: block;
+        margin: 0 auto;
+    }
+    .name__form {
+        width: 100%;
+        
+    }
+    .email__form {
+        width: 100%;
+       
+    }
+     
+    .message__form {
+        width: 100%;
+        
+    }
+    .message-btn {
+        width: 100%;
+        font-size: 14px;
+    }
+        iframe {
+        max-width: 100%;
+    }
+    
 }
 @media screen and (max-width: 480px) {
     h1 {
@@ -261,4 +358,13 @@
         width: 100%;
         height: 100%;
     }
+    .aboutUs__flex-content h3 {
+        font-size: 24px;
+    }
+    .contact-icon .fa {
+        font-size: 24px;
+        margin-right: 0px;
+    }
+    
+    
 }

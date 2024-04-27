@@ -316,3 +316,177 @@ a img {
     background-color: #f0f0f0;
     padding: 40px 0;
 }
+
+/* Страница О нас */
+.aboutUs__flex {
+    display: flex;
+    
+}
+.aboutUs__flex-img {
+    max-width: 600px;
+    margin-right: 30px;
+}
+.aboutUs__flex-content {
+    padding: 40px 25px;
+}
+.aboutUs__flex-content h3 {
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.aboutUs__flex-content h3::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 4px;
+    background-color: var(--color-accent);
+    margin-top: 5px;
+}
+.aboutUs__flex-content p {
+    max-width: 600px;
+}
+.choose {
+    background-image: url(../img/background2.png);
+    padding: 100px 0;
+    background-repeat: no-repeat;
+}
+.choose__flex {
+    display: flex;
+    justify-content: space-between;
+}
+.choose__flex-content {
+    background-color:  #F4F8FD;
+    padding: 40px 30px;
+}
+.choose__flex h3 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.choose__flex h3::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 4px;
+    background-color: var(--color-accent);
+    margin-top: 5px;
+}
+.choose__flex-content-card {
+    max-width: 550px;
+}
+.choose__flex-content-card h4 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.choose__flex-content-card p {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.choose__flex-content-card {
+    display: flex;
+}
+.choose__flex-content-card .fa {
+    font-size: 30px;
+    position: relative;
+    top: -5px;
+}
+
+/* Страница Контакты */
+.contact {
+    background-color: #f0f0f0;
+    padding: 80px 0;
+}
+.contact__flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contact__flex-questions {
+    display: block;
+    max-width: 600px;
+}
+.contact__flex-questions p {
+    max-width: 100%;
+}
+.contact__form {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 4px 4px 27px 0px rgba(34, 60, 80, 0.45);
+}
+.name__form {
+    width: 450px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #FAFAFA;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    padding: 10px;
+}
+.email__form {
+    width: 450px;
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: #FAFAFA;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    padding: 10px;
+}
+ 
+.message__form {
+    width: 450px;
+    min-height: 150px;
+    margin-bottom: 20px;
+    background-color: #FAFAFA;
+    border: 1px solid #bdbdbd;
+    border-radius: 3px;
+    resize: vertical;
+    padding: 10px;
+}
+.message-btn {
+    height: 50px;
+    width: 220px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--color-accent);
+    border-radius: 4px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.message-btn:hover {
+    opacity: 0.9;
+}
+input::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+  }
+  textarea::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+  }
+.contact__flex-questions h4 {
+    font-weight: 700;
+    margin: 20px 0; 
+}
+.contactUs {
+    background-color: #f0f0f0;
+    padding: 0 0 50px 0;
+}
+.contactUs__flex-card i {
+    vertical-align: middle;
+}
+.contactUs__flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.contactUs__flex-card h2 {
+    margin-bottom: 40px;
+}
+.contact-icon {
+    display: flex;
+}
+.contact-icon i {
+    width: 50px;
+    position: relative;
+    top: -10px;
+}
