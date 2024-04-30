@@ -436,36 +436,52 @@ a img {
 .name__form {
     width: 450px;
     height: 30px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
     background-color: #FAFAFA;
     border: 1px solid #bdbdbd;
     border-radius: 3px;
     padding: 10px;
+    outline: none;
+    
+}
+.name__form:focus {
+    outline: var(--color-accent) 2px solid;
 }
 .email__form {
     width: 450px;
     height: 30px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 2px;
     background-color: #FAFAFA;
     border: 1px solid #bdbdbd;
     border-radius: 3px;
     padding: 10px;
+    outline: none;
 }
- 
+.email__form:focus {
+    outline: var(--color-accent) 2px solid;
+}
 .message__form {
     width: 450px;
     min-height: 150px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 2px;
     background-color: #FAFAFA;
     border: 1px solid #bdbdbd;
     border-radius: 3px;
     resize: vertical;
     padding: 10px;
+    outline: none;
+}
+.message__form:focus {
+    outline: var(--color-accent) 2px solid;
 }
 .message-btn {
     height: 50px;
     width: 220px;
     font-size: 16px;
+    margin-top: 20px;
     font-family: 'Open Sans', sans-serif;
     background-color: var(--color-accent);
     border-radius: 4px;
@@ -487,6 +503,10 @@ input::placeholder {
 .contact__flex-questions h4 {
     font-weight: 700;
     margin: 20px 0; 
+}
+.contact__flex-questions p {
+    
+    margin-bottom: 20px;    
 }
 .contactUs {
     background-color: #f0f0f0;
