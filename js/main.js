@@ -1,3 +1,26 @@
+const boxes = document.querySelectorAll('.box');
+
+const checkBoxes = () => {
+  const triger = (window.innerHeight / 5) * 4;
+  for (const box of boxes) {
+    const topOfBox = box.getBoundingClientRect().top;
+    if (topOfBox < triger) {
+      box.classList.add('show');
+    // } else {
+    //     box.classList.remove('show');
+    } 
+  }
+}
+setTimeout(()=> {
+    checkBoxes();
+}, 300);
+
+window.addEventListener('scroll', checkBoxes);
+
+
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("burger").addEventListener("click", function() {
         document.querySelector("header").classList.toggle("open")
@@ -6,15 +29,11 @@ document.addEventListener("DOMContentLoaded", function() {
    
 })
 
-// Закрыть меню при нажатии на Esc
 window.addEventListener('keydown', (e) => {
   if (e.key === "Escape") {
-      // Действие при клике
       document.querySelector(".header").classList.remove("open")
   }
 });
-
-// Закрыть меню при клике вне его
 document.getElementById("navbar").addEventListener('click', event => {
   event._isClickWithInMenu = true;
 });
@@ -23,7 +42,6 @@ document.getElementById("burger").addEventListener('click', event => {
 });
 document.body.addEventListener('click', event => {
   if (event._isClickWithInMenu) return;
-  // Действие при клике
   document.querySelector(".header").classList.remove("open")
 });
 
@@ -92,3 +110,20 @@ validation.addField("#name", [
     let result = await response.text()
     alert(result)
 })
+
+
+
+
+const headerEl = document.getElementById("header")
+
+window.addEventListener("scroll", function (e) {
+  const scrollPos = window.scrollY
+
+  if (scrollPos > 100) {
+    headerEl.classList.add("header_mini")
+  } else {
+    headerEl.classList.remove("header_mini")
+  }
+})
+
+
