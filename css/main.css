@@ -72,6 +72,7 @@ p {
     z-index: 1;
     transition: box-shadow .3s, padding .3s;
     backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
     
 }
 .header_mini {
@@ -150,7 +151,7 @@ li {
     transform: translateY(0) rotate(-45deg);
 }
 .background {
-    
+    margin-top: 50px;
     background: url(../img/background.png);
     background-repeat: no-repeat;
     background-position: center;
