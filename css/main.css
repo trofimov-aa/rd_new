@@ -65,16 +65,18 @@ p {
     display: flex;
     justify-content: space-between;
     padding: 15px;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, .7);
     z-index: 1;
+    transition: box-shadow .3s, padding .3s;
     backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
-    box-shadow: 0px 4px 29px -11px rgba(0,0,0,0.6);
+    
 }
 .header_mini {
     box-shadow: 0px 4px 29px -11px rgba(0,0,0,0.6);
+    padding: 3px 15px 3px;
 }
 .logo-img {
     width: 70px;
@@ -148,6 +150,7 @@ li {
     transform: translateY(0) rotate(-45deg);
 }
 .background {
+    
     background: url(../img/background.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -196,7 +199,7 @@ h1:after {
 /* Услуги */
 .services {
     background-color: #f0f0f0;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 .services h2 {
     text-align: center;
@@ -210,11 +213,7 @@ h1:after {
     background-color: var(--color-accent);
     margin: 0 auto; 
 }
-/* .services__flex {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-} */
+
 .services__grid {
     padding-top: 50px;
     display: grid;
@@ -313,7 +312,8 @@ a img {
     max-width: 1300px;
     display: block;
     margin: 0 auto;
-    margin-top: -180px;
+    margin-top: -200px;
+    
 }
 .services__content-item h2 {
     margin-bottom: 20px;

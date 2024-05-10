@@ -20,6 +20,20 @@ window.addEventListener('scroll', checkBoxes);
 
 
 
+const headerEl = document.getElementById("header")
+
+window.addEventListener("scroll", function () {
+  
+  const scrollPos = window.scrollY
+ 
+  if (scrollPos > 100) {
+    headerEl.classList.add("header_mini")
+  } else {
+    headerEl.classList.remove("header_mini")
+  }
+})
+
+
 
 document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("burger").addEventListener("click", function() {
@@ -113,17 +127,5 @@ validation.addField("#name", [
 
 
 
-
-const headerEl = document.getElementById("header")
-
-window.addEventListener("scroll", function (e) {
-  const scrollPos = window.scrollY
-
-  if (scrollPos > 100) {
-    headerEl.classList.add("header_mini")
-  } else {
-    headerEl.classList.remove("header_mini")
-  }
-})
 
 
