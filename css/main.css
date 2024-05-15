@@ -310,6 +310,9 @@ a img {
     left: 50%;
     z-index: 0;
 }
+.services__content-item p {
+    margin-bottom: 10px;
+}
 .services__content img {
     max-width: 1300px;
     display: block;
