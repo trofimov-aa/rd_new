@@ -31,8 +31,8 @@ try {
 
   // Настройки почты отправителя
   $mail->Host       = 'smtp.yandex.com'; // SMTP сервера вашей почты
-  $mail->Username   = 'info@rd36.ru'; // Логин на почте
-  $mail->Password   = 'xvlxsnmfilwnghay'; // Пароль на почте
+  $mail->Username   = ''; // Логин на почте
+  $mail->Password   = ''; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
