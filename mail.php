@@ -31,12 +31,12 @@ try {
 
   // Настройки почты отправителя
   $mail->Host       = 'smtp.yandex.com'; // SMTP сервера вашей почты
-  $mail->Username   = 'нужна новая почта @yandex.ru'; // Логин на почте
-  $mail->Password   = ' пароли приложений'; // Пароль на почте
+  $mail->Username   = 'info@rd36.ru'; // Логин на почте
+  $mail->Password   = 'xvlxsnmfilwnghay'; // Пароль на почте
   $mail->SMTPSecure = 'ssl';
   $mail->Port       = 465;
 
-  $mail->setFrom('наша новая почта @yandex.ru', 'Заявка с сайта'); // Адрес самой почты и имя отправителя
+  $mail->setFrom('rd36llc@yandex.ru', 'Заявка с сайта'); // Адрес самой почты и имя отправителя
 
   // Получатель письма
   $mail->addAddress('info@rd36.ru');

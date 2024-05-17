@@ -58,7 +58,7 @@
         text-align: justify;
         max-width: 500px;
     }
-    .services__content img {
+    /* .services__content img {
         width: 100%;
         display: block;
         margin: 0 auto;
@@ -68,7 +68,7 @@
         display: block;
         margin: 0 auto;
         margin-top: -240px;
-    }
+    } */
 }
 @media screen and (max-width: 1200px) {
     h1 {
@@ -92,16 +92,15 @@
         max-width: 300px;
         max-height: 300px; 
     }
-    
     .header_btn {
-        
+  
         margin-left: 30px; 
     }
     .services__content-item p {
         max-width: 400px;
     }
     .services__content img {
-        margin-top: -180px;
+        margin-top: -400px;
     }
 }
 @media screen and (max-width: 1024px) {
@@ -110,12 +109,16 @@
         margin-left: 15px;
         font-size: 50px;
     }
+    
     h2 {
         font-size: 32px;
     }
     h2:after {
         width: 90px;
       }
+    li a {
+        margin: 30px 15px;
+    }
     .aboutUs__flex {
         display: flex;
         justify-content: space-between;
@@ -158,7 +161,6 @@
         margin: 0 auto;
     }
     .fa {
-        
         font-size: 40px;
         margin: 0 auto;
         margin-top: 10px;
@@ -179,7 +181,8 @@
         max-width: 100%;
     }
     .services__content img {
-        margin-top: 0px;
+        margin: 0 auto 15px;
+        max-height: 100%;
     }
     .aboutUs__flex-img {
         width: 100%;
@@ -205,12 +208,21 @@
     .aboutUs__flex-content {
         padding: 40px 15px;
     }
-    .contact-icon i {
-        margin-left: 0;
-        margin-right: 15px;
+   
+    .text-h3.box {
+        margin-bottom: 0px;
     }
-    
-    
+    .contact-icon i {
+        font-size: 20px;
+        left: 0px;
+        margin-right: 10px;
+        top: 5px;
+        margin-left: 15px;
+    }
+    .title-phone {
+        font-size: 18px;
+        margin-top: 12px; 
+    }
 }
 @media screen and (max-width: 768px) {
     h1 {
@@ -345,6 +357,10 @@
         iframe {
         max-width: 100%;
     }
+    .services__content img {
+        max-width: 100%;
+    }
+
 }
 @media screen and (max-width: 480px) {
     h1 {
@@ -373,9 +389,6 @@
     .aboutUs__flex-content h3 {
         font-size: 24px;
     }
-    .contact-icon .fa {
-        font-size: 24px;
-        margin-right: 0px;
-    }
+    
     
 }
