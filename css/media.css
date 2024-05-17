@@ -325,7 +325,7 @@
         text-align: center;
     }
     .choose__flex-content-card p {
-        text-align: center;
+        text-align: justifys;
     }
     .choose__flex-content-card .fa {
         transform: translateY(0) rotate(90deg);
